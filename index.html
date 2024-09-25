@@ -40,7 +40,7 @@
             </div>
             <div class="navbar-end lg:mr-11 sm:mr-7">
               <img src="assets/coin.png" alt="" class="size-6">
-             <p class="text-[#111111] text-opacity-70">5500 BDT</p> 
+             <p id="account-balance" class="text-[#111111] text-opacity-70">5500 BDT</p> 
              <br><br><br>                 
             </div>
           </div>           
@@ -51,7 +51,7 @@
             <button class="btn bg-[#B4F461] mx-4">Donation</button>            
           </div>
           <div>
-            <button class="btn btn-outline text-opacity-70">History</button>
+            <button id="show-history" class="btn btn-outline text-opacity-70">History</button>
           </div>
          </section>
     </header>
@@ -81,14 +81,14 @@
                 <label class="label">
                   <span class="label-text"></span>
                 </label>
-                <input id="btn-addMoney" type="text" placeholder="Write Donation Amount" class="input input-bordered" required />
+                <input id="input-add-money" type="text" placeholder="Write Donation Amount" class="input input-bordered" required />
               </div>
               <!-- button -->
               <div class="form-control">
                 <label class="label">
                   <span class="label-text"></span>
                 </label>
-                <button class="btn bg-[#B4F461]">Donate Now</button>
+                <button id="btn-add-money" class="btn bg-[#B4F461] ">Donate Now</button>
                 
               </div>         
               
@@ -106,6 +106,7 @@
       </section>
 
     </main>
+    <script src="js/utilities.js"></script>
     <script src="js/addMoney.js"></script>
     
 </body>

@@ -11,7 +11,7 @@ document.getElementById('btn-add-money')
         }
         
         // wrong way to verify. do not try it at your serious website
-        if(pinNumber === 1234){
+        if(aound===Number){
             const balance = getTextFieldValueById('account-balance');
             const newBalance = balance + addMoney;
 
